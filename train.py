@@ -4,6 +4,12 @@ from data.data_loader import CreateDataLoader
 from models.models import create_model
 from util.visualizer import Visualizer
 
+from PIL import ImageFile 
+ImageFile.LOAD_TRUNCATED_IMAGES = True
+
+
+
+
 opt = TrainOptions().parse()
 data_loader = CreateDataLoader(opt)
 dataset = data_loader.load_data()

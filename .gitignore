@@ -1,6 +1,7 @@
 debug*
 datasets/
 checkpoints/
+checkpoints_backup/
 results/
 build/
 dist/
