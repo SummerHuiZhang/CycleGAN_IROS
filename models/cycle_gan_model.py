@@ -88,7 +88,7 @@ class CycleGANModel(BaseModel):
     def forward(self):
         self.real_A = Variable(self.input_A)
         self.real_B = Variable(self.input_B)
-
+        
     def test(self):
         real_A = Variable(self.input_A, volatile=True)
         fake_B = self.netG_A(real_A)
