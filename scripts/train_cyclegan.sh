@@ -11,8 +11,8 @@
 # --no_dropout 
 
 # training for day_night_hui_2nd (256*256)
-python ./train.py --dataroot /usr/app/CycleGAN/datasets/robotcar/day-night \
---resize_or_crop  resize_and_crop\
+python ./train.py --dataroot /usr/app/CycleGAN/datasets/robotcar/WinterDay_WinterNight \
+--resize_or_crop  resize_and_crop \
 --loadSize 256 \
 --fineSize 256 \
 --name night_day_hui_256_256 \

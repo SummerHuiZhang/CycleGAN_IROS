@@ -19,8 +19,8 @@ python test.py \
 --resize_or_crop resize_and_crop \
 --loadSize 256 \
 --fineSize 256 \
---name night_day_hui_256_256  \
+--name night_day_hui  \
 --model cycle_gan \
 --phase test \
 --no_dropout \
---how_many 82
+--how_many 500
