@@ -15,7 +15,7 @@
 
 # testing for day_night_hui (256*256)
 python test.py \
---dataroot /usr/app/CycleGAN/datasets/robotcar/day-night \
+--dataroot /usr/app/CycleGAN/datasets/robotcar/WinterDay_SummerDay \
 --resize_or_crop resize_and_crop \
 --loadSize 256 \
 --fineSize 256 \

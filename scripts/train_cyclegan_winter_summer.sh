@@ -1,5 +1,5 @@
 #python train.py --dataroot ./datasets/maps --name maps_cyclegan --model cycle_gan --pool_size 50 --no_dropout
-python ../train.py --dataroot /usr/app/CycleGAN/datasets/robotcar/winter_summer \
+python /usr/app/CycleGAN/train.py --dataroot /usr/app/CycleGAN/datasets/robotcar/WinterDay_SummerDay \
 --resize_or_crop scale_width \
 --loadSize 256 \
 --fineSize 256 \
